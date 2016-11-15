@@ -1,0 +1,42 @@
+.colourPalette {
+  text-align: center;
+  line-height: 3px;
+  width: 750px;
+  margin: 0 auto; }
+
+.colourTitle {
+  margin-bottom: 50px;
+  padding-top: 60px; }
+
+.navy {
+  width: 150px;
+  height: 180px;
+  background-color: #26333f;
+  float: left;
+  color: #fff; }
+
+.blue {
+  width: 150px;
+  height: 180px;
+  background-color: #6badab;
+  float: left; }
+
+.green {
+  width: 150px;
+  height: 180px;
+  background-color: #b7d659;
+  float: left; }
+
+.offWhite {
+  width: 150px;
+  height: 180px;
+  background-color: #f4f4f4;
+  float: left; }
+
+.grey {
+  width: 150px;
+  height: 180px;
+  background-color: #e2eaf2;
+  float: left; }
+
+/*# sourceMappingURL=main.css.map */
