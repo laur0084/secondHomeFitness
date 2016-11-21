@@ -1,0 +1,112 @@
+// This is the css code for the banner/hero image on the main landing page.
+
+
+/* FONT CODE
+		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Dosis', sans-serif; 
+*/
+
+
+.bannerTitle {
+	margin-top: 350px;
+	text-align: center;
+}
+
+.banner img{
+	width: 100vw;
+	height: 550px;
+	margin-top: 70px;
+	z-index: 1;
+	display: block;
+}
+
+.bannerContent {
+	display: block;
+	z-index: 30;
+}
+
+//styling for the "Fitness Training in the Valley" title
+.mainTitle {
+	color: #b7d659;
+	font-size: 65px;
+	font-family: 'Dosis', sans-serif;
+	margin-top: -450px;
+	text-align: center;
+}
+
+//styling for the subtitle
+.mainSubTitle {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #f4f4f4;
+	text-align: center;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-top: -25px;
+}
+
+//styling the "Browse Fitness Professionals" button
+.bannerBtn {
+	width: 400px;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 29;
+	cursor: pointer;
+	border: 2px solid #fff;
+	border-radius: 12px;
+	background-color: rgba(250, 250, 250, 0.3);
+	margin-top: 50px;
+}
+
+//for the text on the button
+.bannerBtn h4 {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	z-index: 40;
+	margin-top: 27px;
+}
+
+//for the arrows on the banner slideshow
+.arrowLeft {
+	border: 10px solid transparent;
+	border-right: 10px solid #fff;
+	float: left;
+	position: relative;
+	z-index: 500;
+	cursor: pointer;
+	margin-top: -275px;
+	margin-left: 20px;
+}
+
+.arrowRight {
+	border: 10px solid transparent;
+	border-left: 10px solid #fff;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	z-index: 500;
+	margin-top: -275px;
+	margin-right: 20px;
+}
+
+
+
+/******** QUERY STATEMENTS ********/
+@media screen and (max-width: 500px) {
+	.banner img {
+		width: 100%;
+	}
+	.mainTitle {
+		font-size: 45px;
+	}
+	.mainSubTitle {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.bannerBtn img {
+		width: 100vw;
+		height: auto;
+	}
+}

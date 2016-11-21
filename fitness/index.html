@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="styles/css/main.css">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro" rel="stylesheet">
 	<meta charset="UTF-8">
+	<!-- make the site mobile friendly (IMPORTANT) -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>UI Inventory</title>
 </head>
 <body>
-	
 	<!-- This is the colour palette of the website, including hex codes, RGBA, and CMYK for each colour -->
 	<section class="colourPalette">
 		<h1 class="colourTitle">Colour Palette</h1>
@@ -36,6 +39,140 @@
 			<p>#e2eaf2</p>
 		</div>
 	</section>
+	
+	
+	<!-- BANNER IMAGE/SLIDESHOW -->
+	<!-- will need code (most likely javascript) to make work -->		
+	<section class="banner">
+		<h1 class="bannerTitle">Banner</h1>
+		<div>
+			<img src="images/f051915afef2c0bb268283b4aed9db95.jpg" class="bannerImg" alt="Picture of a valley. ">
+			
+			<!-- left arrow of the slideshow -->
+			<div class="arrowLeft"></div>
+			<!-- right arrow of the slideshow -->
+			<div class="arrowRight"></div>
+			
+			<div class="bannerContent">
+				<h1 class="mainTitle">Fitness Training in the Valley</h1>
+				<h3 class="mainSubTitle">Connecting People to Fitness <br> Professionals in the National Capital Region</h3>
+				<div class="bannerBtn">
+					<h4>Browse Fitness Professionals</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- CHOICE/ABOUT -->
+	<!-- this is the code for the sections where the screen splits between professionals and clients, and the about section beneath it -->
+	<h1 class="choiceTitle">Choice/About</h1>
+	
+	<section class="homeChoice">
+		<div class="professional">
+			<h2>Register as a Fitness Professional</h2>
+			<p>Freelancing Fitness Professionals promote your buiness on Fitness Training in the Valley for a minium of $29.99/month.</p>
+			<div class="professionalBtn">
+				<h4>Professionals Registration</h4>
+			</div>
+		</div>
+		<div class="client">
+			<h2>Become a Client</h2>
+			<p>Clients looking for a Fitness Professional sign up for a free account to begin your search.</p>
+			<div class="clientBtn">
+				<h4>Browse Fitness Professionals</h4>
+			</div>
+		</div>
+		
+		<div class="about">
+			<h2>What We're About</h2>
+			<p>Fitness Training in The Valley is a website designed to help people connect with fitness professionals directly.  Fitness Professionals create a profile that outlines their certifications, specializations, education and so much more.  By viewing these profiles, people can learn about the professional and choose inquire about their training services.</p>
+		</div>
+		
+	</section>
+	
+	
+	
+	
+	<!-- FOOTER -->
+	<!-- this will be the same on every page of the website -->
+	<h1 class="footerTitle">Footer</h1>
+	
+	<footer class="footer">
+	
+		<img src="images/fvlogo_FINAL.png" class="footerLogo" alt="">
+		
+		<div class="list">
+			<h5>PRODUCT</h5>
+			<p>Features<br>Pricing<br>Customers</p>
+		</div>
+		
+		<div class="list">
+			<h5>ABOUT US</h5>
+			<p>Our Story<br>Offices<br>Press</p>
+		</div>
+		
+		<div class="list">
+			<h5>FOLLOW US</h5>
+			<p>Facebook<br>Twitter<br>Pinterest</p>
+		</div>
+	</footer>
+	
+	<!-- links to not made or designed pages -->
+		<div class="footerLinks">
+			<a href="#">Privacy</a>
+			<div class="circle"></div>
+			<a href="#">ToS</a>
+			<div class="circle"></div>
+			<h6 class="copyright">&copy;  Fitness Training in the Valley</h6>
+		</div>
+		
+		
+		
+		
+	<!-- DATA COLLECTION OVERLAY -->
+	<h1 class="overlayTitle">Data Collection Overlay</h1>
+	
+	<section class="overlay">
+		<h1>Wait a Second!</h1>
+		<h2>Let us help you find the perfect Fitness professional...</h2>
+		<h3>We just need a little info from you:</h3>
+		
+		<form class="overlayForm">
+		<!-- FORM CONTENT VERY LIKELY TO CHANGE -->
+			<input type="text" name="fullName" class="fullName" placeholder="Name">
+			<label>Full Name:</label>
+			<br>
+			<input type="text" name="age" class="age" placeholder="Age">
+			<label>Age:</label>
+			<br>
+			<select name="gender" id="gender" class="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+			<label>Gender:</label>
+			<br>
+			<select name="budget" id="budget" class="budget">
+				<option value="low">$20 - $50</option>
+				<option value="medium">$60 - $100</option>
+				<option value="high">$100+</option>
+			</select>
+			<label>Budget:</label>
+			<br>
+			<input type="text" name="specialties" class="specialties" placeholder="Conditions: Recovering, anxiety...">
+			<label>Specialty Conditions:</label>
+			<br>
+			<input type="text" name="activities" class="activities" placeholder="Activities: ex. hockey, weights...">
+			<label>Activities You Like:</label>
+			
+			<div class="searchBtn">
+				<h4>Continue to Search Results</h4>
+			</div>
+		</form>
+	</section>
+	
+	
+	<!-- LIVE PROFILE PAGE -->
+	
 	
 </body>
 </html>

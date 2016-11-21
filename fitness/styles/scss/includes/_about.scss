@@ -1,0 +1,154 @@
+//this is the styling for the sections where the screen splits between professionals and clients, and the about section beneath it
+.choiceTitle {
+	margin-top: 200px;
+	margin-bottom: 90px;
+	text-align: center;
+}
+
+.homeChoice {
+	background-color: #26333f;
+	width: 100vw;
+	height: 600px;
+	color: #fff;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.professional {
+	width: 41vw;
+	float: left;
+	padding-left: 25px;
+	padding-right: 70px;
+	border: 2px solid transparent;
+	border-right: 2px solid #fff;
+	padding-bottom: 60px;
+	padding-top: 20px;
+}
+
+.professional h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	padding-bottom: 50px;
+}
+
+.professional p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.client {
+	width: 41vw;
+	float: right;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+}
+
+.client h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	padding-bottom: 65px;
+}
+
+.client p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.professionalBtn, .clientBtn {
+	width: 400px;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 29;
+	cursor: pointer;
+	border: 2px solid #fff;
+	border-radius: 12px;
+	background-color: rgba(250, 250, 250, 0.3);
+	margin-top: 50px;
+}
+
+.clientBtn {
+	margin-top: 85px;
+}
+
+.professionalBtn h4, .clientBtn h4 {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	z-index: 40;
+	margin-top: 27px;
+}
+
+
+//this is the styling for the about part under the choice section
+.about {
+	display: block;
+	margin-top: 550px;
+	background-color: #26333f;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+.about h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.about p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
+/********* MEDIA QUERIES **************/
+@media screen and (max-width:800px) {
+	.professionalBtn, .clientBtn {
+		width: 90vw;
+	}
+	
+	.professional, .client {
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100vw;
+	}
+	
+	.professional {
+		border-right: 2px solid transparent;
+		border-bottom: 2px solid #fff;
+	}
+	
+	.about {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	
+	.about {
+		padding-top:200px;
+	}
+	
+	.professional h2, .client h2 {
+		padding-bottom: 10px;
+	}
+	
+	.professionalBtn, .clientBtn {
+		margin-top: 10px;
+	}
+	
+	.client h2 {
+		margin-top: 20px;
+	}
+}
+
+

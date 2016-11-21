@@ -1,0 +1,122 @@
+// this is the stylesheet for the footer section of the website (will be the same on every page)
+
+.footerTitle {
+	margin-top: 300px;
+	margin-bottom: 90px;
+	text-align: center;
+}
+
+.footer {
+	width: 100vw;
+	height: 225px;
+	background-color: #26333f;
+}
+
+.footerLogo {
+	width: 140px;
+	height: 130px;
+	padding-top: 45px;
+	padding-left: 35px;
+	margin-right: 100px;
+	float: left;
+}
+
+//positioning the list of links in the footer
+.list {
+	float: left;
+	padding-right: 30px;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+.footer h5 {
+	font-family: 'Dosis', sans-serif;
+	color: #A4ABBF;
+	font-size: 18px;
+}
+
+.footer p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	cursor: pointer;
+}
+
+//styling the links at the bottom of the footer
+.footerLinks {
+	width: 100vw;
+	display: block;
+	background-color: #26333f;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	color: #A4ABBF;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+.footerLinks a{
+	display: inline;
+}
+
+.footerLinks a, .footerLinks a:visited {
+	color: #A4ABBF;
+}
+
+.circle {
+	background-color: #A4ABBF;
+	width: 5px;
+	height: 5px;
+	border-radius: 50px;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+//styling the copyright
+.copyright {
+	display: inline;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #A4ABBF;
+	font-size: 14px;
+}
+
+
+/********** MEDIA QUERIES **************/
+@media screen and (max-width:1000px) {
+	.list {
+		margin-left: 90px;
+	}
+	
+	.footerLogo {
+		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.list {
+		margin-left: 50px;
+	}
+	
+	.footerTitle {
+		margin-top: 600px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.list {
+		margin-left: 20px;
+	}
+	
+	.footerLogo {
+		width: 90px;
+		height: 80px;
+		padding-top: 70px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.footerTitle {
+		margin-top: 1000px;
+	}
+}
+
