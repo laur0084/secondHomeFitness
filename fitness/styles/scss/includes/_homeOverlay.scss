@@ -6,7 +6,8 @@
 
 .overlay {
 	width: 100vw;
-	height: 800px;
+	height: 1200px;
+	display: block;
 	background-color: rgba(0, 0, 0, 0.9);
 	
 	h1 {
@@ -31,6 +32,10 @@
 		font-family: 'Dosis', sans-serif;
 		font-size: 22px;
 		margin-top: -10px;
+	}
+	
+	.overlayImg {
+		display: block;
 	}
 }
 

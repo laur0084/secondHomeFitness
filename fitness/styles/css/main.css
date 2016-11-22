@@ -297,7 +297,7 @@
 .about {
   display: block;
   margin-top: 550px;
-  background-color: #26333f;
+  background-color: #b7d659;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px; }
@@ -347,7 +347,8 @@
 
 .overlay {
   width: 100vw;
-  height: 800px;
+  height: 1200px;
+  display: block;
   background-color: rgba(0, 0, 0, 0.9); }
   .overlay h1 {
     color: #b7d659;
@@ -367,6 +368,8 @@
     font-family: 'Dosis', sans-serif;
     font-size: 22px;
     margin-top: -10px; }
+  .overlay .overlayImg {
+    display: block; }
 
 .overlayForm {
   text-align: center;
@@ -465,5 +468,96 @@
     margin-top: 100px;
     width: 300px;
     margin-right: 30px; } }
+.profileTitle {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.liveProfile .examplePic {
+  width: 400px;
+  height: auto; }
+.liveProfile h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  margin-left: 50px;
+  padding-top: 22px; }
+.liveProfile .box {
+  background-color: #6badab;
+  width: 30px;
+  height: 100%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  display: inline;
+  float: left;
+  clear: both; }
+.liveProfile .info, .liveProfile .services, .liveProfile .experience, .liveProfile .sessions, .liveProfile .additionalInfo {
+  width: 300px;
+  height: 60px;
+  margin-top: -33px;
+  cursor: pointer; }
+.liveProfile .grey {
+  background-color: rgba(227, 235, 242, 0.6);
+  width: 400px;
+  height: 60px;
+  position: absolute;
+  z-index: 30px;
+  margin-top: 8px; }
+.liveProfile .experience .grey {
+  margin-top: 14px; }
+.liveProfile .sessions .grey {
+  margin-top: 20px; }
+.liveProfile .sessions h4 {
+  padding-top: 35px; }
+.liveProfile .additionalInfo .grey {
+  margin-top: 26px; }
+.liveProfile .additionalInfo h4 {
+  padding-top: 40px; }
+.liveProfile .contactBtn {
+  background-color: #b7d659;
+  width: 250px;
+  height: 80px;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: -100px;
+  margin-left: 700px; }
+  .liveProfile .contactBtn h4 {
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    cursor: pointer; }
+.liveProfile .profileName {
+  font-size: 50px;
+  font-family: 'Dosis', sans-serif;
+  display: block;
+  margin-top: 100px; }
+.liveProfile .profileSubTitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 21px;
+  margin-top: -20px; }
+.liveProfile .profileContent p {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 900px;
+  margin-top: -20px; }
+.liveProfile .profileContent li {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.search .topProfessionals {
+  width: 100%;
+  height: 400px;
+  background-color: #26333f; }
+  .search .topProfessionals h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    padding-top: 50px; }
+  .search .topProfessionals .card {
+    width: 35%;
+    height: 250px;
+    background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

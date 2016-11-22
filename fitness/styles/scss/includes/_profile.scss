@@ -1,0 +1,122 @@
+.profileTitle {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.liveProfile {
+	.examplePic {
+		width: 400px;
+		height: auto;
+	}
+	
+	h4 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 25px;
+		margin-left: 50px;
+		padding-top: 22px;
+	}
+	
+	.box {
+		background-color: #6badab;
+		width: 30px;
+		height: 100%;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		display: inline;
+		float: left;
+		clear: both;
+	}
+	
+	.info, .services, .experience, .sessions, .additionalInfo {
+		width: 300px;
+		height: 60px;
+		margin-top: -33px;
+		cursor: pointer;
+	}
+	
+	//all of this weird looking code is for the grey color on the back of the boxes
+	//when clicked, these boxes will look like the Personal Information box (see uxpin.com prototype)
+	.grey {
+		background-color: rgba(227, 235, 242, 0.6);
+		width: 400px;
+		height: 60px;
+		position: absolute;
+		z-index: 30px;
+		margin-top: 8px;
+	}
+	
+	.experience {
+		.grey {
+			margin-top: 14px;
+		}
+	}
+	
+	.sessions {
+		.grey {
+			margin-top: 20px;
+		}
+		
+		h4 {
+			padding-top: 35px;
+		}
+	}
+	
+	.additionalInfo {
+		.grey {
+			margin-top: 26px;
+		}
+		
+		h4 {
+			padding-top: 40px;
+		}
+	}
+	
+	//styling the button to contact the trainer
+	.contactBtn {
+		background-color: #b7d659;
+		width: 250px;
+		height: 80px;
+		border-radius: 12px;
+		margin: 0 auto;
+		margin-top: -100px;
+		margin-left: 700px;
+		
+		h4 {
+			color: #fff;
+			font-family: 'Dosis', sans-serif; 
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			padding-top: 15px;
+			font-size: 40px;
+			cursor: pointer;
+		}
+	}
+	
+	//styling the main info in the live profile page
+	.profileName {
+		font-size: 50px;
+		font-family: 'Dosis', sans-serif; 
+		display: block;
+		margin-top: 100px;
+	}
+	
+	.profileSubTitle {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 21px;
+		margin-top: -20px;
+	}
+	
+	.profileContent {
+		p {
+			font-family: 'Source Sans Pro', sans-serif;
+			width: 900px;
+			margin-top: -20px;
+		} 
+		
+		li {
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+	}
+}
